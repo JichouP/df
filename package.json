@@ -4,7 +4,7 @@
     "description": "Tool to shape directory names",
     "main": "main.ts",
     "bin": {
-        "ds": "./dist/main.js"
+        "ds": "./bin/main.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
