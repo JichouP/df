@@ -1,6 +1,6 @@
 {
     "name": "@jichoup/ds",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Tool to shape directory names",
     "main": "main.ts",
     "bin": {
