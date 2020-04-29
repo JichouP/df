@@ -11,9 +11,6 @@
         "build": "tsc",
         "prepublishOnly": "tsc"
     },
-    "files": [
-        "./dist/main.js"
-    ],
     "keywords": [],
     "author": "jichoup",
     "license": "ISC",
