@@ -9,7 +9,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 0",
         "build": "tsc",
-        "install": "npm ci && tsc",
+        "install": "tsc",
         "prepublishOnly": "tsc"
     },
     "keywords": [],
