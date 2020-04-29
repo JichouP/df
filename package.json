@@ -1,0 +1,24 @@
+{
+    "name": "@jichoup/ds",
+    "version": "0.0.1",
+    "description": "Tool to shape directory names",
+    "main": "main.ts",
+    "bin": {
+        "ds": "./dist/main.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "jichoup",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/argv": "0.0.4",
+        "@types/node": "^13.13.4",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "argv": "0.0.2"
+    }
+}

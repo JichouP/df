@@ -1,2 +1,3 @@
-# df
-A tool to format directory names
+# ds
+
+A tool to shape directory names
