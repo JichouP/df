@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-require('../dist/main');
+const main = require('../dist/main.js');
+main.default();
