@@ -19,3 +19,10 @@ if (args.targets.length) {
         }
     }
 }
+else if (typeof process.env.PWD === 'string') {
+    // if there is no target
+    const targetDir = process.env.PWD;
+    for (const name of fs_1.default.readdirSync(path_1.default.resolve(targetDir))) {
+        fs_1.default.renameSync(path_1.default.resolve(targetDir, name), path_1.default.resolve(targetDir, name.replace(reg[0], '').replace(reg[1], '')));
+    }
+}

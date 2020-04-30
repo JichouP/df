@@ -16,4 +16,10 @@ if (args.targets.length) {
             fs.renameSync(path.resolve(targetDir, name), path.resolve(targetDir, name.replace(reg[0], '').replace(reg[1], '')));
         }
     }
+} else if (typeof process.env.PWD === 'string') {
+    // if there is no target
+    const targetDir = process.env.PWD;
+    for (const name of fs.readdirSync(path.resolve(targetDir))) {
+        fs.renameSync(path.resolve(targetDir, name), path.resolve(targetDir, name.replace(reg[0], '').replace(reg[1], '')));
+    }
 }
